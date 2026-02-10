@@ -19,7 +19,6 @@ public class Demo {
         beverage2 = new Mocha(beverage2); // Envolvemos con Mocha
         beverage2 = new Mocha(beverage2); // Envolvemos con otro Mocha
         beverage2 = new Whip(beverage2);  // Envolvemos con Crema
-
         System.out.println(beverage2.getDescription() + " $" + String.format("%.2f", beverage2.cost()));
     }
 }
